@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "onlycommands",
+  "version": "${version}",
+  "name": "Only Commands",
+  "description": "Solo permite escribir los comandos de Carpet Mod y de HeadIndex. El resto de comandos se bloquean.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.onlycommands.OnlyCommandsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
